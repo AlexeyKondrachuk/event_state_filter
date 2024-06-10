@@ -1,0 +1,46 @@
+#root {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.selected_button {
+  display: flex;
+ justify-content: end;
+}
+
+.main {
+  width: 100%;
+}
+
+button {
+  display: flex; 
+  margin-right: 5px; 
+  border: 1px solid;
+  padding: 10px 15px 10px 15px; 
+  border-radius: 0px;
+}
+
+.filter-selected {
+background-color: #555555;
+}
+
+.filter {
+background-color: #ffffff;
+}
+
+.portfolioList {
+display: inline-block;
+margin: 15px 0;
+column-count: 3;
+column-gap: normal;
+
+}
+
+
+
+img {
+margin: 5px 0px;
+}
